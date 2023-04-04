@@ -1,0 +1,53 @@
+/* Use media queries to apply different styles based on screen size */
+@media only screen and (max-width: 600px) {
+  /* For screens less than 600px wide, apply these styles */
+  header nav {
+    display: none; /* Hide the navigation menu */
+  }
+  header button {
+    display: block; /* Show a button to toggle the navigation menu */
+  }
+  main h1 {
+    font-size: 1.5em; /* Reduce the font size of the main heading */
+  }
+}
+
+/* For screens greater than 600px wide, use a standard layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #250e8a;
+  color: #b41962;
+  padding: 1em;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav li {
+  margin-right: 1em;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1em;
+  margin: 1em 0;
+  cursor: pointer;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}

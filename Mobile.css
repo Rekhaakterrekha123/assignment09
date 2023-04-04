@@ -1,0 +1,160 @@
+/* apply default styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style the header and navigation */
+header {
+  background-color: #333333;
+  color: rgb(158, 18, 77);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* style the featured post section */
+.featured-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.featured-post img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.featured-post h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.featured-post p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.featured-post a {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* style the blog post list */
+.blog-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-post {
+  flex-basis: calc(50% - 1rem);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.blog-post p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.blog-post a {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* style the single post page */
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+article img {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 1rem;
+}
+
+article h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+article .meta {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+article .author {
+  font-weight: bold;
+}
+
+article .content {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.social-sharing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.social-sharing p {
+  margin-right: 1rem;
+}
+
+.social-sharing ul {
+  display: flex;
+  list-style: none;
+}
+
+.social-sharing li {
+  margin-right: 1rem;
+}
+
+.social-sharing a {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration:
